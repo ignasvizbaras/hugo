@@ -2,3 +2,8 @@ baseURL = 'https://ignasvizbaras.github.io/'
 languageCode = 'en-us'
 title = "Website"
 theme = "congo"
+
+[[menu.main]]
+  name = "Menu"
+  weight = 2
+  url = "/posts/menu/"
