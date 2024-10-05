@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1 style="margin-bottom: 40px; font-size: 2rem;">Welcome to My Blog</h1>
+  <ul>
+    {{ range .Site.RegularPages }}
+      <li style="margin-bottom: 20px">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
